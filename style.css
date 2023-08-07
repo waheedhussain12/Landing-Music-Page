@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid violet; */
+}
+html,
+body {
+  line-height: 1.3;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  background-color: #e9e9e9;
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    /* background-color: #e9e9e9; */
+    height: 15vh;
+    
+}
+/* common classs */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* nav logo */
+.nav-logo img{
+    height: 2.5vw;
+ margin-left: 5.5vw;
+}
+/* nav list */
+.nav-list {
+    margin-right: 3.5vw;
+}
+.nav-list ul{
+display: flex;
+gap: 3vw;
+}
+.nav-list li ,a{
+    padding: 0.5vw;
+}
+.nav-list ul li a{
+    color: #151515;
+    font-size: 1.3vw;
+    font-weight: 600;
+    
+}
+.nav-list a:hover{
+background-color: #fcb901;
+border-radius: 0.4vw;
+
+}
+.active{
+    background-color: #fcb901;
+    border-radius: 0.4vw;
+    color: #e9e9e9 ;
+    
+  }
+  
+/* main-body */
+.main-body{
+    background: #e9e9e9;
+    height: calc(100vh - 15vh);
+    display: flex;
+    background-image: url(/practice-projects/Landing-Page-Music/img/bg-bottom.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom ;
+  
+  
+
+}
+
+.left-side{
+width: 50%;
+display: flex;
+align-items: start;
+flex-direction: column;
+gap: 7vh;
+margin-left: 5.5vw;
+
+position: relative;
+
+}
+.circle-img{
+/* margin-top: 1.5vw; */
+}
+.circle-img img{
+height: 20vw;
+}
+.des p {
+font-size: 1.1vw;
+color: #151515;
+text-align: start;
+
+}
+.btn{
+background-color: #efb81d;
+padding:0.4em ;
+width:8vw;
+height: 5vh;
+border-radius: 1vw;
+border: 0.2vw solid  black;
+color: white;
+box-shadow: 0.1vw 0.2vw 0.3vw gray;
+}
+.icons i{
+    background-color: black;
+    padding: 0.3vw;
+    border-radius: 0.9vw;
+    color: white;
+}
+/* heading-and-dots */
+.heading-and-dots{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+}
+.heading-first{
+    display: flex;
+    align-items:  flex-start;
+}
+.heading-first h1{
+    font-size: 4.6vw;
+    font-weight: 800;
+    
+}
+.dot-span{
+    color: #efb81d;
+    font-size: 1em;
+   
+}
+
+.heading-first img{
+    height: 2.6vw;
+
+}
+
+/* music-heading */
+.music-heading{
+    display: flex;
+    align-items: start;
+    gap: 2.3vw;
+}
+.dot{
+    height: 2.5vw;
+    
+}
+.music-img{
+    height: 6.1vw;
+
+}
+
+/* right side start */
+.right-side{
+width: 50%;
+
+}
+.right-side-main{
+    display: flex;
+ border: 0.2vw solid #efb81d;
+width: 30vw;
+height: 60vh;
+border-radius: 50vh;
+position: relative;
+
+}
+#circle-img{
+   padding-left: 1vw;
+   height: 70vh;
+   padding-left: 2vw;
+   position: fixed;
+ z-index: 2;
+   
+}
+/* circle  yellow logo */
+.small-circle img{
+    height: 35vh;
+    position: absolute;
+    top: 1.5vw;
+    left: 25vw;
+    z-index:1;
+}
+
+.right-dots img{
+    position: absolute;
+    height: 15vh;
+    top: 4vw;
+    left: 23vw;
+    z-index: 3;
+}
+.right-three-dots img{
+    position: absolute;
+    height: 4vh;
+    top: 19vw;
+    left: 37vw;
+    z-index: 3;
+}
+.right-shape-logo img{
+    position: absolute;
+    height: 30vh;
+    right:  0vw;
+    bottom: 0vh;
+    z-index: 1;
+   
+}
+.right-music-logo img{
+    position: absolute;
+
+    height: 35vh;
+    right:  3vw;
+    bottom: 3vh;
+    z-index: 1;
+}
+.right-shape-yellow img{
+    position: absolute;
+
+    height: 9vh;
+    right:  45vw;
+    top: - 3vh;
+   
+}
+.right-shape-bottom-yellow img{
+    position: absolute;
+
+    height: 10vh;
+    right: 35vw;
+    bottom:  0vh;
+}
+.left-side-small-circle img{
+    height: 4vh;
+    position: absolute;
+    bottom: 7vh;
+    left: 20vw;
+    
+}
+
+
+@media (width: 768) {
+    
+}
